@@ -1,61 +1,61 @@
 # Hello, I'm Daniele Gattoni
 
-I'm an **AWS Cloud Systems Engineer** with a background in **Embedded Firmware** and **Industrial Automation** Engineering.
+I'm an **AWS Cloud Systems Engineer** with a background in **Industrial Automation** and **Embedded Software** Engineering.
 
-I've transitioned my core expertise toward designing secure, highly available cloud architectures in **Amazon Web Services (AWS)**, as its ecosystem provides the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. As far as I do like the command line, I approach all infrastructure deployment via **Infrastructure as Code (Terraform)**.  
-An important part of my work will be into **IoT**, **IIoT** and **Edge Computing**, bridging the gap between Operational Technology (OT) and Information Technology (IT) in the cloud.
+I've transitioned my core expertise toward designing secure, highly available cloud architectures in **Amazon Web Services (AWS)**, as its ecosystem provides the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. A significant part of my work will then be into **IoT**, **IIoT** and **Edge Computing**, linking Operational Technology (OT) and Information Technology (IT) in the cloud. All infrastructure deployment is via **Infrastructure as Code** through **Terraform**.
 
 ## Featured Projects
 
-Infrastructure & Automation: HashiCorp Terraform (IaC) [Prog.1], AWS CLI, Git, GitHub Actions (CI/CD).Networking & Protection: Amazon VPC [Prog.1], AWS NAT Gateway [Prog.1], Application Load Balancer (ALB) [Prog.1], AWS Certificate Manager (ACM) [Prog.1].Frontend Ecosystem: React, TypeScript, Amazon S3 (Static Hosting) [Prog.1], Amazon CloudFront (CDN) [Prog.1].Backend & Containerization: Docker, Amazon ECS Fargate [Prog.1], Amazon ECR, Node.js / Python API [Prog.1].Data & Domain Management: Amazon RDS (PostgreSQL) [Prog.1], Amazon Route 53 (DNS) [Prog.1].
+### Enterprise Multi-Tier Web Platform (In Development)  
+A production-grade, highly-available enterprise full-stack web platform.  
 
+<img width="1285" height="756" alt="image" src="https://github.com/user-attachments/assets/ddf08887-ee4d-4e1d-8dad-e6353833a519" />
 
-**Enterprise Multi-Tier Web Platform** (In Development)  
-A production-grade, highly-available full-stack web platform designed to demonstrate modern enterprise infrastructure engineering and secure application hosting on AWS  
-* **Cloud & IaC**: Multi-AZ high-availability architecture orchestrated entirely via Terraform with strict network isolation using custom VPC subnets and NAT Gateways
-* **Front-end & Back-end**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, connected to a containerized Node.js/Python API running on AWS ECS Fargate
-* **Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication
-* **Repository Link**
+**Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
+**Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
+**Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
+**Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
+**Repository**: [enterprise-multi-tier-platform](https://github.com/daniele-gattoni/enterprise-multi-tier-platform)  
 
-```mermaid
-graph TD
-    User([User Browser]) -->|DNS Query| R53[Amazon Route 53]
-    User -->|Static Assets HTTPS| CF[Amazon CloudFront CDN]
-    CF -->|Fetch Code| S3[(Amazon S3 Frontend)]
-    
-    User -->|API Requests HTTPS| ALB[Application Load Balancer]
-    
-    subgraph VPC [Amazon VPC 10.0.0.0/16]
-        subgraph Public_AZ1 [Public Subnet AZ 1a]
-            ALB
-            NAT[AWS NAT Gateway]
-        end
-        
-        subgraph Private_AZ1 [Private Subnet AZ 1a]
-            ECS1[ECS Fargate Task: Backend API]
-        end
-        
-        subgraph Private_AZ2 [Private Subnet AZ 1b]
-            ECS2[ECS Fargate Task: Backend API]
-        end
-        
-        subgraph DB_Subnets [Isolated Database Subnets]
-            RDS[(Amazon RDS PostgreSQL)]
-        end
-    end
-    
-    ALB -->|Route Traffic Port 80/443| ECS1
-    ALB -->|Route Traffic Port 80/443| ECS2
-    ECS1 -->|Read/Write| RDS
-    ECS2 -->|Read/Write| RDS
-    ECS1 -->|Outbound Egress| NAT
-    ECS2 -->|Outbound Egress| NAT
-```
-
-### AWS IoT Greengrass Smart Gateway (Planned)
+### Hybrid IIoT Edge Computing System (Planned)
 An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity even during internet outages.
-*   **Technologies:** AWS IoT Greengrass, Docker, Python (OPC UA / MQTT Client), IAM Policies.
-*   👉 **[Link to Repository](You will add the link here in the future)**
+
+<img width="1618" height="638" alt="image" src="https://github.com/user-attachments/assets/542ce1c0-9f0b-49d0-a1b3-d19eb8d19eb4" />
+
+**Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
+**Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
+**Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
+**Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
+**Repository**: [hybrid-iiot-edge-computing-system](https://github.com/daniele-gattoni/hybrid-iiot-edge-computing-system)  
+
+### Corporate Web Application with CI/CD (Planned)
+A production-ready, highly available 3-tier web infrastructure on AWS built entirely via Terraform. Features multi-AZ EC2 Auto Scaling, secure private subnets, RDS failover, and a GitHub Actions CI/CD pipeline using Packer. 
+
+<img width="1186" height="772" alt="image" src="https://github.com/user-attachments/assets/807773d4-6d1d-490c-b50c-2675069a3f1f" />
+
+**Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
+**Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
+**Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
+**Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
+**Repository**: [corporate-web-application-with-ci-cd](https://github.com/daniele-gattoni/corporate-web-application-with-ci-cd)  
+
+### Automated Secure OTA Firmware Delivery System (Planned)
+Focus heavily on AWS Security services and writing authentic Embedded C++/Python client-side firmware update logic.
+
+**Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
+**Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
+**Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
+**Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
+**Repository**: [automated-secure-ota-firmware-delivery-system](https://github.com/daniele-gattoni/automated-secure-ota-firmware-delivery-system)  
+
+### Predictive Maintenance Event-Driven Platform (Planned)  
+Fully Event-Driven Serverless architecture using AWS messaging and notification services.
+
+**Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
+**Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
+**Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
+**Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
+**Repository**: [predictive-maintenance-event-driven-platform](https://github.com/daniele-gattoni/predictive-maintenance-event-driven-platform)  
 
 ---
 
