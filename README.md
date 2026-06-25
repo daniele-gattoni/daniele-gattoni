@@ -1,6 +1,6 @@
 # Hello, I'm Daniele Gattoni
 
-I'm a **Cloud Systems Engineer** with a background in **Industrial Automation** and **Embedded Software** Engineering.
+I'm an **AWS Certified Cloud Systems Engineer** with a background in **Industrial Automation** and **Embedded Software** Engineering.
 
 I've transitioned my core expertise toward designing secure, highly available cloud architectures in **Amazon Web Services (AWS)**, as its ecosystem provides the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. A significant part of my work will then be into **IoT**, **IIoT** and **Edge Computing**, linking Operational Technology (OT) and Information Technology (IT) in the cloud. All infrastructure deployment is via **Infrastructure as Code** through **Terraform**.
 
@@ -9,7 +9,7 @@ I've transitioned my core expertise toward designing secure, highly available cl
 ### Resilient Multi-Tier Web Platform (In Development)  
 A production-grade, highly-available enterprise full-stack web platform.  
 
-<img width="2726" height="2072" alt="image" src="https://github.com/user-attachments/assets/733fa40a-9318-45ca-8a4b-297a3a2ad7cd" />
+<img width="2726" height="2095" alt="image" src="https://github.com/user-attachments/assets/0653ba1e-8075-4b6f-80c7-58eb3d958fe7" />
 
 **Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
 **Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
