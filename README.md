@@ -1,21 +1,21 @@
 # Hello, I'm Daniele Gattoni
 
-I'm an **AWS Cloud Systems Engineer** with a background in **Industrial Automation** and **Embedded Software** Engineering.
+I'm a **Cloud Systems Engineer** with a background in **Industrial Automation** and **Embedded Software** Engineering.
 
 I've transitioned my core expertise toward designing secure, highly available cloud architectures in **Amazon Web Services (AWS)**, as its ecosystem provides the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. A significant part of my work will then be into **IoT**, **IIoT** and **Edge Computing**, linking Operational Technology (OT) and Information Technology (IT) in the cloud. All infrastructure deployment is via **Infrastructure as Code** through **Terraform**.
 
 ## Featured Projects
 
-### Enterprise Multi-Tier Web Platform (In Development)  
+### Resilient Multi-Tier Web Platform (In Development)  
 A production-grade, highly-available enterprise full-stack web platform.  
 
-<img width="1285" height="756" alt="image" src="https://github.com/user-attachments/assets/ddf08887-ee4d-4e1d-8dad-e6353833a519" />
+<img width="2726" height="2072" alt="image" src="https://github.com/user-attachments/assets/52be936d-9e5a-48d2-b573-900efc4edc85" />
 
 **Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
 **Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
 **Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
-**Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
-**Repository**: [enterprise-multi-tier-platform](https://github.com/daniele-gattoni/enterprise-multi-tier-platform)  
+**Data Tier**: Fully managed Amazon RDS MySQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
+**Repository**: [resilient-multi-tier-web-platform](https://github.com/daniele-gattoni/resilient-multi-tier-web-platform)  
 
 ### Hybrid IIoT Edge Computing System (Planned)
 An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity even during internet outages.
