@@ -9,7 +9,7 @@ I've transitioned my core expertise toward designing secure, highly available cl
 ### Resilient Multi-Tier Web Platform (In Development)  
 A production-grade, highly-available enterprise full-stack web platform.  
 
-<img width="2808" height="2187" alt="image" src="https://github.com/user-attachments/assets/93d9021c-7cff-4fdc-a631-a857d26df0da" />
+<img width="2808" height="2187" alt="image" src="https://github.com/user-attachments/assets/30224040-584c-45d2-90aa-e770de797af3" />
 
 **Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
 **Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
@@ -17,21 +17,21 @@ A production-grade, highly-available enterprise full-stack web platform.
 **Data Tier**: Fully managed Amazon RDS MySQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
 **Repository**: [resilient-multi-tier-web-platform](https://github.com/daniele-gattoni/resilient-multi-tier-web-platform)  
 
-### Hybrid IIoT Edge Computing System (Planned)
+### Hybrid IIoT Edge Computing System (In Development)
 An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity even during internet outages.
 
-<img width="1618" height="638" alt="image" src="https://github.com/user-attachments/assets/542ce1c0-9f0b-49d0-a1b3-d19eb8d19eb4" />
+<img width="1477" height="2362" alt="image" src="https://github.com/user-attachments/assets/c287a5ed-8cc5-4b61-b3e4-fb8e8239550b" />
 
-**Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
-**Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
-**Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
-**Data Tier**: Fully managed Amazon RDS PostgreSQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
+**Industrial Edge**: Python-based OPC UA simulator generating telemetry ingested locally by AWS IoT Greengrass V2 with offline caching.  
+**Secure Ingestion**: Bidirectional mTLS communication via AWS IoT Core handling device synchronization using Named Device Shadows.  
+**Data Processing**: Event-driven AWS IoT Rules Engine routing raw payloads instantly into AWS Lambda parsing functions.  
+**Dual-Engine Storage**: Real-time telemetry routed to Amazon Timestream and machine lifecycle states stored in Amazon DynamoDB.  
+**Serverless Backend**: Secure, scalable Amazon API Gateway layer fetching sub-second analytical metrics using on-demand AWS Lambda queries.  
+**Global Frontend**: Single-page React (TypeScript) web application hosted on Amazon S3 and accelerated via Amazon CloudFront CDN.  
 **Repository**: [hybrid-iiot-edge-computing-system](https://github.com/daniele-gattoni/hybrid-iiot-edge-computing-system)  
 
 ### Corporate Web Application with CI/CD (Planned)
 A production-ready, highly available 3-tier web infrastructure on AWS built entirely via Terraform. Features multi-AZ EC2 Auto Scaling, secure private subnets, RDS failover, and a GitHub Actions CI/CD pipeline using Packer. 
-
-<img width="1186" height="772" alt="image" src="https://github.com/user-attachments/assets/807773d4-6d1d-490c-b50c-2675069a3f1f" />
 
 **Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
 **Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
