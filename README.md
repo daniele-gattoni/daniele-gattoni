@@ -1,8 +1,6 @@
 # Daniele Gattoni | Cloud Systems Engineer
 
-I'm an **AWS Certified Cloud Systems Engineer** with a background in **Industrial Automation** and **Embedded Software** Engineering.
-
-I've transitioned my core expertise toward designing secure, highly available cloud architectures in **Amazon Web Services (AWS)**, as its ecosystem provides the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. A significant part of my work will then be into **IoT**, **IIoT** and **Edge Computing**, linking Operational Technology (OT) and Information Technology (IT) in the cloud. All infrastructure deployment is via **Infrastructure as Code** through **Terraform**.
+I'm a **Computer and Robotics Engineer** with a background in **Industrial Automation** and **Embedded Systems** transitioning to the Cloud Infrastructure. Amazon Web Services (AWS) ecosystem offers the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. Interested in modern serverless architectures and hybrid pipelines from physical hardware to scalable cloud solutions. Part of my work will be into **IoT**, **IIoT** and **Edge Computing**, linking Operational Technology (OT) and Information Technology (IT) in the cloud. All infrastructure deployment is via **Infrastructure as Code** through **Terraform**.
 
 ## Featured Projects
 
