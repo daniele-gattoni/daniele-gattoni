@@ -9,7 +9,7 @@ I've transitioned my core expertise toward designing secure, highly available cl
 ### Resilient Multi-Tier Web Platform (In Development)  
 A production-grade, highly-available enterprise full-stack web platform.  
 
-<img width="2726" height="2095" alt="image" src="https://github.com/user-attachments/assets/0653ba1e-8075-4b6f-80c7-58eb3d958fe7" />
+<img width="2808" height="2187" alt="image" src="https://github.com/user-attachments/assets/93d9021c-7cff-4fdc-a631-a857d26df0da" />
 
 **Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateways.  
 **Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
