@@ -1,11 +1,11 @@
 # Daniele Gattoni | Cloud Systems Engineer
 
-I'm a **Computer and Robotics Engineer** with a background in **Industrial Automation** and **Embedded Systems** transitioning to the Cloud Infrastructure. Amazon Web Services (AWS) ecosystem offers the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. Interested in modern serverless architectures and hybrid pipelines from physical hardware to scalable cloud solutions. Part of my work will be into **IoT**, **IIoT** and **Edge Computing**, linking Operational Technology (OT) and Information Technology (IT) in the cloud. All infrastructure deployment is via **Infrastructure as Code** through **Terraform**.
+I'm an **MSc Computer and Robotics Engineer** with a background in **Industrial Automation** and **Embedded Systems** transitioning to **Cloud Computing**. Infrastructures as **Amazon Web Services (AWS)** offer the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. I'm currently working on modern serverless architectures to run new and existing software developed with different languages seamlessly in the cloud, and hybrid pipelines from physical hardware to scalable cloud solutions, focusing on **IoT**, **IIoT** and **Edge Computing**, linking Operational Technology (OT) and Information Technology (IT) in the cloud. All infrastructure deployment is via **Infrastructure as Code (IaC)** through **Terraform**.
 
 ## Featured Projects
 
 ### Resilient Multi-Tier Web Platform (In Development)  
-A production-grade, highly-available enterprise full-stack web platform.  
+A highly-available, multi-tier full-stack web platform.  
 
 <img width="2808" height="2187" alt="image" src="https://github.com/user-attachments/assets/30224040-584c-45d2-90aa-e770de797af3" />
 
