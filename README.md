@@ -18,7 +18,7 @@ A highly-available, multi-tier full-stack web platform.
 ### Hybrid IIoT Edge Computing System (In Development)
 An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity even during internet outages.
 
-<img width="1477" height="2362" alt="image" src="https://github.com/user-attachments/assets/c287a5ed-8cc5-4b61-b3e4-fb8e8239550b" />
+<img width="1476" height="2362" alt="image" src="https://github.com/user-attachments/assets/b964868e-aae0-41cc-a821-868f1b280ae8" />
 
 **Industrial Edge**: Python-based OPC UA simulator generating telemetry ingested locally by AWS IoT Greengrass V2 with offline caching.  
 **Secure Ingestion**: Bidirectional mTLS communication via AWS IoT Core handling device synchronization using Named Device Shadows.  
