@@ -7,7 +7,7 @@ I'm an **MSc Computer and Robotics Engineer** with a background in **Industrial 
 ### Resilient Multi-Tier Web Platform (In Development)  
 A highly-available, multi-tier full-stack web platform.  
 
-<img width="2808" height="2187" alt="image" src="https://github.com/user-attachments/assets/30224040-584c-45d2-90aa-e770de797af3" />
+<img width="2808" height="2167" alt="image" src="https://github.com/user-attachments/assets/c9286620-4892-4f66-b21d-30c790a76d1a" />
 
 **Networking & Protection**: Multi-AZ architecture with strict network isolation using custom VPC subnets and NAT Gateway.  
 **Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
