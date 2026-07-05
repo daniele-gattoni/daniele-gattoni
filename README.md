@@ -4,7 +4,7 @@ I'm an MSc Computer and Robotics Engineer with a background in Industrial Automa
 
 ## Featured Projects
 
-### Resilient Multi-Tier Web Platform (In Development)  
+### AWS Enterprise Multi-Tier Web Platform (Status - Ready)  
 A highly-available, multi-tier full-stack web platform.  
 
 <img width="2808" height="2167" alt="image" src="https://github.com/user-attachments/assets/c9286620-4892-4f66-b21d-30c790a76d1a" />
@@ -13,7 +13,7 @@ A highly-available, multi-tier full-stack web platform.
 **Front-End Ecosystem**: Responsive React (TypeScript) dashboard deployed globally via Amazon CloudFront CDN, using Route 53 for DNS.  
 **Back-End**: Containerized Node.js/Python API in Docker deployed through AWS ECS running on Fargate.  
 **Data Tier**: Fully managed Amazon RDS MySQL database securely isolated inside private subnets with dynamic multi-AZ storage replication.  
-**Repository**: [resilient-multi-tier-web-platform](https://github.com/daniele-gattoni/resilient-multi-tier-web-platform)  
+**Repository**: [aws-enterprise-multi-tier-web-platform](https://github.com/daniele-gattoni/aws-enterprise-multi-tier-web-platform)  
 
 ### Hybrid IIoT Edge Computing System (Planned)
 An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity.
