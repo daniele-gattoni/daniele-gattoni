@@ -1,7 +1,24 @@
-# Daniele Gattoni | Cloud DevOps Engineer
+# Daniele Gattoni | Cloud DevOps Engineer 
 
-I'm an MSc Computer and Robotics Engineer with a background in Industrial Automation and Embedded Systems transitioning to Cloud Computing. Infrastructures as Amazon Web Services (AWS) offer the perfect intersection for my interests in core software development, automated physical devices, and remote control systems. I'm currently working on modern serverless architectures to run new and existing software developed with different languages seamlessly in the cloud, and hybrid pipelines from physical hardware to scalable cloud solutions, focusing on IoT and Edge Computing. All infrastructure deployment is via Infrastructure as Code (IaC) through Terraform. 
-// convergence IT/OT
+Cloud DevOps Engineer | AWS Certified Solutions Architect | M.Sc. Computer and Robotics Engineer  
+
+Cloud DevOps Engineer with three years of independent contracting experience and more than five years foundational background as a Software Engineer. Hardened experience in automating infrastructure deployment, orchestrating containers, building CI/CD pipelines and troubleshooting production issues. Specialized in IoT and edge computing to connect OT systems with IT cloud architectures.
+
+Engagement model: B2B Contractor  
+Availability: Remote or Hybrid @ Europe Central (mainly Prague, Warsaw, Cracow hubs) / South (Milan, Rome, Barcelona) / North (Tallinn)
+
+The technical stack I work with  
+▪	Amazon AWS, Microsoft Azure, Google Cloud Platform  
+▪	Docker, Kubernetes, Helm; Amazon RDS, Aurora, SQL, DynamoDB  
+▪	GitHub Actions, Terraform, Argo CD, Ansible, Python, Bash  
+▪	OpenTelemetry, Prometheus, Grafana, ELK/EFK, AWS CloudWatch  
+▪	AWS IAM, KMS, Secrets Manager, SCPs, HashiCorp Vault, Checkov, Trivy  
+▪	OPC-UA, Siemens PLCs, IIoT, Edge Computing, MQTT, Modbus, C/C++, RTOS  
+
+Let's connect  
+If your organization needs a specialized technical partner to automate cloud infrastructure, secure CI/CD pipelines, or bridge distributed OT/Edge systems with the cloud, let's get in touch:  
+Email: daniele.gattoni@outlook.com  
+Linkedin: [linkedin.com](https://www.linkedin.com/in/daniele-gattoni)
 
 ## Cloud-Native Infrastructure and DevOps Implementations
 
@@ -18,7 +35,6 @@ A highly-available, multi-tier full-stack web platform.
 ---
 
 ### Kubernetes CI/CD Pipeline
-An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity.
 Production-grade AWS EKS GitOps pipeline automated via Terraform and GitHub Actions, secured with OIDC, Checkov, and Trivy, orchestrated by Argo CD.
 
 **Industrial Edge**: Python-based OPC UA simulator generating telemetry ingested locally by AWS IoT Greengrass V2 with offline caching.  
@@ -32,7 +48,6 @@ Production-grade AWS EKS GitOps pipeline automated via Terraform and GitHub Acti
 ---
 
 ### IaaS Telemetry Traditional Architecture
-An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity.
 Enterprise traditional IaaS framework provisioning AWS EC2 environments via Terraform, automating Linux configurations through Ansible, monitored via Prometheus & Grafana.
 
 **Industrial Edge**: Python-based OPC UA simulator generating telemetry ingested locally by AWS IoT Greengrass V2 with offline caching.  
@@ -60,7 +75,7 @@ An architecture focused on Edge Computing for industrial scenarios, ensuring low
 ---
 
 ### Automated Secure OTA Firmware Delivery System 
-An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity.
+//  
 
 **Industrial Edge**: Python-based OPC UA simulator generating telemetry ingested locally by AWS IoT Greengrass V2 with offline caching.  
 **Secure Ingestion**: Bidirectional mTLS communication via AWS IoT Core handling device synchronization using Named Device Shadows.  
@@ -73,7 +88,7 @@ An architecture focused on Edge Computing for industrial scenarios, ensuring low
 ---
 
 ### Predictive Maintenance Event-Driven Platform 
-An architecture focused on Edge Computing for industrial scenarios, ensuring low-latency data processing and operational continuity.
+//  
 
 **Industrial Edge**: Python-based OPC UA simulator generating telemetry ingested locally by AWS IoT Greengrass V2 with offline caching.  
 **Secure Ingestion**: Bidirectional mTLS communication via AWS IoT Core handling device synchronization using Named Device Shadows.  
