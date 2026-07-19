@@ -17,7 +17,7 @@ I'll take care of your cloud infrastructure, handling the structural work, maint
 Email: daniele.gattoni@outlook.com  
 Linkedin: [linkedin.com](https://www.linkedin.com/in/daniele-gattoni)  
 Engagement model: B2B contracts  
-Availability: Remote or Hybrid (EU, I live around CEE/SE) 
+Availability: remote or hybrid (EU, I live around CEE/SE) 
 
 ## Cloud-Native Infrastructure and DevOps Implementations
 
