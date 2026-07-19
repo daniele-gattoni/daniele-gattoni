@@ -4,21 +4,20 @@ Cloud DevOps Engineer | AWS Certified Solutions Architect | M.Sc. Computer and R
 
 Cloud DevOps Engineer with three years of independent contracting experience and more than five years foundational background as a Software Engineer. Hardened experience in automating infrastructure deployment, orchestrating containers, building CI/CD pipelines and troubleshooting production issues. Specialized in IoT and Edge Computing to connect OT systems with IT cloud architectures.
 
-Engagement model: B2B Contractor  
-Availability: Remote or Hybrid @ Europe Central (mainly Prague, Warsaw, Cracow hubs) / South (Milan, Rome, Barcelona) / North (Tallinn)
-
-The technical stack I work with  
-▪	Amazon AWS, Microsoft Azure, Google Cloud Platform  
+*The technical stack*  
+▪	Amazon AWS, Microsoft Azure, Google Cloud Platform (GCP)  
 ▪	Docker, Kubernetes, Helm; Amazon RDS, Aurora, SQL, DynamoDB  
 ▪	GitHub Actions, Terraform, Argo CD, Ansible, Python, Bash  
-▪	OpenTelemetry, Prometheus, Grafana, ELK/EFK, AWS CloudWatch  
+▪	OpenTelemetry, Prometheus, Grafana, ELK/EFK, Amazon CloudWatch  
 ▪	AWS IAM, KMS, Secrets Manager, SCPs, HashiCorp Vault, Checkov, Trivy  
 ▪	OPC-UA, Siemens PLCs, IIoT, Edge Computing, MQTT, Modbus, C/C++, RTOS  
 
-Let's connect  
-If your organization needs a specialized technical partner to automate cloud infrastructure, secure CI/CD pipelines, or bridge distributed OT/Edge systems with the cloud, let's get in touch:  
+*Let's connect*  
+I'll take care of your cloud infrastructure, handling the structural work, maintaining the building, and securing the perimeter - so your developers can focus entirely on building value.  
 Email: daniele.gattoni@outlook.com  
-Linkedin: [linkedin.com](https://www.linkedin.com/in/daniele-gattoni)
+Linkedin: [linkedin.com](https://www.linkedin.com/in/daniele-gattoni)  
+Engagement model: B2B contracts  
+Availability: Remote or Hybrid (EU, I live around CEE/SE) 
 
 ## Cloud-Native Infrastructure and DevOps Implementations
 
@@ -57,6 +56,17 @@ Enterprise traditional IaaS framework provisioning AWS EC2 environments via Terr
 **Serverless Backend**: Secure, scalable Amazon API Gateway layer fetching sub-second analytical metrics using on-demand AWS Lambda queries.  
 **Global Frontend**: Single-page React (TypeScript) web application hosted on Amazon S3 and accelerated via Amazon CloudFront CDN.  
 **Repository**: [hybrid-iiot-edge-computing-system](https://github.com/daniele-gattoni/hybrid-iiot-edge-computing-system) 
+
+---
+
+
+### AWS Multi-Account Governance Landing Zone
+
+**Enterprise Governance**: Multi-account AWS Organizations landing zone structured under AWS Control Tower guardrails, isolating corporate workloads across distinct Development, Production, and Shared-Services accounts  
+**Cross-Account Resource Sharing**: Centralized high-availability networking topology utilizing AWS RAM (Resource Access Manager) to securely share VPC subnets and infrastructure resources from the Shared-Services hub to downstream environments, optimizing network topology and cutting data transfer overhead.  
+**Strict Cloud Compliance**: Implementation of infrastructure-level Service Control Policies (SCPs) to enforce mandatory multi-factor authentication (MFA), strict geographical region-locking, and tamper-proof CloudTrail auditing across the entire organization.  
+**Automated Identity Federation**: Centralized access management and least-privilege permission boundary orchestration leveraging AWS IAM Identity Center (AWS SSO) for programmatic cross-account assuming roles.  
+**Repository**: [aws-multiaccount-governance-landing-zone](https://github.com/daniele-gattoni/aws-multiaccount-governance-landing-zone)  
 
 ---
 
@@ -104,7 +114,7 @@ An architecture focused on Edge Computing for industrial scenarios, ensuring low
 
 ### MantaCore: Distributed Edge IoT and SCADA Platform for Maritime Operations
 MantaCore is a simulated end-to-end industrial control platform (ICS) for cargo ships or isolated critical installations. 
-It's a SCADA shipboard system inspired by distributed automation systems and the responsive CLI of classic sci-fi systems, but implemented with cloud-native enterprise logic.
+It's a SCADA shipboard system inspired by distributed automation systems and the responsive CLI of classic 90s systems, but implemented with cloud-native enterprise logic.
 Distributed Edge IoT & SCADA platform for maritime workloads, leveraging AWS IoT Core (MQTT), Amazon DynamoDB state storage, and unified CloudWatch/Grafana telemetry.
 
 **Edge Control Simulation**: Python-based event-driven industrial simulator replicating maritime/facility hardware states (bulkheads, sensors, actuators) with automated local file-trigger feedback loops.  
