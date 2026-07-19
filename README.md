@@ -2,7 +2,7 @@
 
 Cloud DevOps Engineer | AWS Certified Solutions Architect | M.Sc. Computer and Robotics Engineer  
 
-Cloud DevOps Engineer with three years of independent contracting experience and more than five years foundational background as a Software Engineer. Hardened experience in automating infrastructure deployment, orchestrating containers, building CI/CD pipelines and troubleshooting production issues. Specialized in IoT and edge computing to connect OT systems with IT cloud architectures.
+Cloud DevOps Engineer with three years of independent contracting experience and more than five years foundational background as a Software Engineer. Hardened experience in automating infrastructure deployment, orchestrating containers, building CI/CD pipelines and troubleshooting production issues. Specialized in IoT and Edge Computing to connect OT systems with IT cloud architectures.
 
 Engagement model: B2B Contractor  
 Availability: Remote or Hybrid @ Europe Central (mainly Prague, Warsaw, Cracow hubs) / South (Milan, Rome, Barcelona) / North (Tallinn)
